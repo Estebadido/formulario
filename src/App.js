@@ -61,9 +61,13 @@ function App() {
                 <div>
                     <h2>Datos del Estudiante:</h2>
                     <p><strong>Nombres:</strong> {estudiante.nombres}</p>
+                    
                     <p><strong>Apellidos:</strong> {estudiante.apellidos}</p>
+                    
                     <p><strong>Fecha de Nacimiento:</strong> {estudiante.fechaNacimiento}</p>
+                    
                     <p><strong>Dirección:</strong> {estudiante.direccion}</p>
+                   
                     <p><strong>Teléfono:</strong> {estudiante.telefono}</p>
                 </div>
             )}
